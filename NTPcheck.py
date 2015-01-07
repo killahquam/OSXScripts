@@ -21,7 +21,7 @@ applied_patch = ["ntp-77.1.1","ntp-88.1.1","ntp-92.5.1"]
 osvers = platform.mac_ver()[0]
 
 #The NTP fix is only available for the following OSX versions
-Needed_vers = ["10.10.1", "10.9.5", "10.8.5"]
+Needed_vers = ["10.10.2", "10.10.1", "10.9.5", "10.8.5"]
 
 if not osvers in Needed_vers:
        Status = "No:OS is %s"%osvers
